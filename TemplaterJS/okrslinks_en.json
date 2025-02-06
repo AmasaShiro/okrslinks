@@ -1,0 +1,37 @@
+{
+    "author" : {
+        "authorName"         : "Your Name @ Your Organization"
+    },
+    "documents": {
+        "corePrinciplesNote" : "Core Principles"
+    },
+    "dateFormats": {
+        "created"   : "YYYY-MM-DD (ddd) HH:mm",
+        "published" : "YYYY-MM-DD"
+    },
+    "daily": {
+        "titleFormat":      "YYYY-MD-DD (ddd)",
+        "defaultFormat":    "YYYY-MM-DD",
+        "offsetNextPeriod": 1
+    },
+    "weekly":{
+        "titleFormat":      "YYYY-MM [W]w",
+        "defaultFormat":    "gggg-[W]ww",
+        "offsetNextPeriod": "P1W"
+    },
+    "monthly": {
+        "titleFormat":      "YYYY-MM",
+        "defaultFormat":    "YYYY-MM",
+        "offsetNextPeriod": "P1M"
+    },
+    "quarterly": {
+        "titleFormat":      "YYYY-[Q]Q",
+        "defaultFormat":    "YYYY-[Q]Q",
+        "offsetNextPeriod": "P3M"
+    },
+    "yearly": {
+        "titleFormat":      "YYYY",
+        "defaultFormat":    "YYYY",
+        "offsetNextPeriod": "P1Y"
+    }
+}

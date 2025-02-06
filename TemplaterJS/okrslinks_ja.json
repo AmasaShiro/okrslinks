@@ -1,0 +1,37 @@
+{
+    "author" : {
+        "authorName"         : "あなたの名前 @ あなたの組織"
+    },
+    "documents": {
+        "corePrinciplesNote" : "基本原則"
+    },
+    "dateFormats": {
+        "created"   : "YYYY年M月D日 (ddd) HH:mm",
+        "published" : "YYYY年M月D日"
+    },
+    "daily": {
+        "titleFormat":      "YYYY年M月D日 (ddd)",
+        "defaultFormat":    "YYYY-MM-DD",
+        "offsetNextPeriod": 1
+    },
+    "weekly":{
+        "titleFormat":      "YYYY年M月第w週",
+        "defaultFormat":    "gggg-[W]ww",
+        "offsetNextPeriod": "P1W"
+    },
+    "monthly": {
+        "titleFormat":      "YYYY年M月",
+        "defaultFormat":    "YYYY-MM",
+        "offsetNextPeriod": "P1M"
+    },
+    "quarterly": {
+        "titleFormat":      "YYYY年[第]Q四半期",
+        "defaultFormat":    "YYYY-[Q]Q",
+        "offsetNextPeriod": "P3M"
+    },
+    "yearly": {
+        "titleFormat":      "YYYY年",
+        "defaultFormat":    "YYYY",
+        "offsetNextPeriod": "P1Y"
+    }
+}
